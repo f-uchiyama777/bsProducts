@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+.container {
+  width:1100px;
+  margin:0 auto;
+  max-width:94%;
+  padding:0;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    width: 94%;   
+    text-align: center;
+  }
+}
+
+/*-------------------------
+  globale
+-------------------------*/
+.gl-header{
+background:  #343a40;
+}
+
+.gl-logo{
+  width: 154px;
+  height: 25px;
+  text-indent: -9999px;
+  background: url("../images/logo.jpg") 0 0  no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .gl-logo{
+    width: 94%;
+  }
+}
+
+.gl-header .container{
+  padding-top: 30px;
+  height: 82px;
+  display: flex;
+}
+
+.gl-nav ul{
+  list-style: none;
+  padding-left: 42px;
+}
+
+.gl-nav ul li{
+  float: left;
+  margin-right: 12px;
+}
+
+.gl-nav ul li a{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1;
+  padding-top: 5px;
+}
+
+/*-------------------------
+  section
+-------------------------*/
+.section-hero{
+  background: #343a40;
+  text-align: center;
+}
+
+
+.section-hero .pc{
+  display:block;
+}
+
+.section-hero .sp{
+  display:none;
+}
+
+@media screen and (max-width: 768px) {
+  .section-hero .pc{
+    display:none;
+  }
+  
+  .section-hero .sp{
+    display:block;
+  }
+
+  .section-hero .sp img{
+    width:94%
+  }
+
+}
+
+/*-------------------------
+  top
+-------------------------*/
+.top-main .top-tpoics{
+  padding-top: 40px;
+}
+
+.top-main .top-tpoics ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+
+.top-main .top-tpoics ul li{
+  float: left;
+  width: 350px;
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .top-main .top-tpoics ul li{
+    width: 94%;
+    margin-right: 0;
+    
+  }
+}
+
+.top-main .top-tpoics ul li:last-child{
+  margin-right: 0;
+}
+
+.top-main .top-tpoics ul li img{
+  height: 210px;
+}
+
+.top-main .top-tpoics ul li .img{
+  padding-bottom: 10px;
+  margin: 0;
+  text-align:center;
+}
+
+.top-main .top-tpoics ul li h2{
+  font-size: 32px;
+  color: #e85000;
+  margin-bottom: 20px;
+}
+
+.top-main .top-tpoics ul li p{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.top-main .top-tpoics ul li .btn{
+  margin-right: 8px;
+  
+}
+
+.top-main .top-tpoics ul li .btn a{
+  color:#fff;
+  background-color: #e85000;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.2;
+  border-radius: 6px;
+  width: 60px;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.top-main .top-tpoics ul li .btn:nth-of-type(2) a{
+  color:#000;
+  background-color: #ffc108;
+}
+
+/*-------------------------
+  banner
+-------------------------*/
+.top-banner {
+  clear: both;
+  padding: 60px 0;
+}
+
+
+.top-banner ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+
+.top-banner ul li{
+  width: 255px;
+  height: 133px;
+  margin-right: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .top-banner ul li{
+    width: 94%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .top-banner ul li img{
+    width: 94%;
+    
+  }
+}
+
+.top-banner ul li:last-child{
+  margin-right: 0;
+}
+
+/*-------------------------
+  footer
+-------------------------*/
+.gl-footer{
+  color: #6c757d;
+  background-color: #343a40;
+  height: 176px;
+  padding-top: 50px;
+}
+
+.gl-footer .container small a{
+  font-size: 16px;
+  line-height: 2;
+}
+
+.gl-footer .container a{
+  color: #e85000;
+  text-decoration:none;
+}
+
+
